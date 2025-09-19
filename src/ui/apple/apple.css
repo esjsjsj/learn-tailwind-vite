@@ -10,7 +10,7 @@
   --blue-400: #006edb;
 
   /* Box Size */
-  --size: 36.25rem; /* 580px - 카드 높이 고정 값 */
+  --size: 31.25rem; /* 500px - 카드 높이 고정 값 */
 
   /* Text Size */
   --xx-small-text: 0.75rem; /* 12px - Small Screen 버튼(링크) 글자 크기 */
@@ -46,7 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  block-size: 580px;
+  block-size: 500px;
   padding-block-start: 40px;
   line-height: 1.5;
   letter-spacing: -0.02em;

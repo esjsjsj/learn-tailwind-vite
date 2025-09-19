@@ -10,28 +10,29 @@
     <link rel="preload" as="font" href="/font/suit/SUIT-Variable.woff2" />
     <link rel="stylesheet" href="/font/suit/SUIT-Variable.css" />
     <script type="module" src="/src/main.js"></script>
-    <link rel="stylesheet" href="/src/ui/apple/apple-utility-classes.css" />
   </head>
   <a href="/index.html" class="block mx-2 p-2">메인 페이지 이동</a>
   <h1 class="m-4 text-3xl text-blue-950 font-bold">Apple 카드 컴포넌트(Tailwindcss)</h1>
   <body class="font-sans">
     <div class="apple-container">
       <!-- iPad Pro -->
-      <article class="flex flex-col items-center bg-(--black) gap-y-(--spacing-small)">
-        <h2 class="text-extra-large">iPad Pro</h2>
+      <article
+        class="apple-card lg:col-span-2 bg-apple-black text-apple-white apple-card bg-(image:--ipad-pro-set) lg:bg-(image:--ipad-pro-wide-set)"
+      >
+        <h2>iPad Pro</h2>
         <p>
-          <span class="">놀라우리만치 얇다.</span>
-          <span class="">엄청나게 강력하다.</span>
+          <span class="lg:inline">놀라우리만치 얇다.</span>
+          <span class="lg:inline">엄청나게 강력하다.</span>
         </p>
         <p>출시일 추후 공개</p>
-        <div class="">
-          <a href="/" class="border-1">더 알아보기</a>
-          <a href="/" class="border-1">가격 보기</a>
+        <div>
+          <a href="/">더 알아보기</a>
+          <a href="/">가격 보기</a>
         </div>
       </article>
       <!-- iPad air -->
-      <article class="flex flex-col items-center bg-(--white) gap-y-(--spacing-small)">
-        <h2 class="text-extra-large">iPad air</h2>
+      <article class="apple-card lg:col-span-2 apple-card bg-(image:--ipad-air-set) lg:bg-(image:--ipad-air-wide-set)">
+        <h2>iPad air</h2>
         <p>
           <span>두 가지 사이즈. 더 빠른 칩.</span>
           <span>무엇이든 거뜬하게.</span>
